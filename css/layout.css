@@ -1,0 +1,380 @@
+body {
+    background-color: #F3EFEC;
+
+    font-family: 'Eb Garamond Regular';
+    font-size: 23px;
+}
+
+.container {
+    margin: 40px auto 0;
+    width: 1360px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.container section {
+    border: 2px solid black;
+}
+
+.content-heading {
+    font-size: 30px;
+    font-family: 'Eb Garamond Bold';
+    text-transform: uppercase;
+}
+
+.firstbox {
+    display: flex;
+    flex-direction: column;
+    height: 804px;
+    box-sizing: border-box;
+
+    background: url(../svg/fish1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-right: 48px;
+}
+
+.firstbox .firstline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-grow: 1;
+}
+
+
+.firstbox .firstline h1 {
+    font-size: 70px;
+    line-height: 91.35px;
+    font-family: 'Eb Garamond Italic';
+    color: black;
+}
+
+.firstbox .firstline h2 {
+    font-size: 50px;
+    line-height: 94px;
+    font-family: 'Eb Garamond Regular';
+    color: black;
+}
+
+.firstbox .secondline {
+    font-size: 100px;
+    font-family: Eb Garamond Italic;
+    text-align: right;
+}
+
+.firstbox .thirdline .antiqua {
+    font-size: 80px;
+    font-family: Eb Garamond Italic;
+    text-transform: uppercase;
+
+    padding-left: 100px;
+}
+
+.firstbox .thirdline .font-family {
+    font-size: 150px;
+    font-family: Eb Garamond Bold;
+    text-transform: uppercase;
+}
+
+.secondbox {
+    display: flex;
+    box-sizing: border-box;
+    height: 470px;
+}
+
+.secondbox .outlines {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex-grow: 1.66;
+    flex-shrink: 0;
+
+    border-right: 2px solid black;
+    text-align: center;
+
+    padding-top: 18px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.secondbox .outlines .header {
+    font-family: 'Eb Garamond Bold';
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.secondbox .outlines .fonts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.secondbox .outlines .fonts .label {
+    margin-bottom: 30px; 
+}
+
+.secondbox .text-sizes {
+    text-align: left;
+
+    flex-grow: 1;
+
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.secondbox .text-sizes .header {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Eb Garamond Bold';
+    margin-bottom: 50px;
+}
+
+.secondbox .text-sizes .content {
+    font-size: 23px;
+    line-height: 28.5px;
+    margin-top: 40px;
+}
+
+.thirdbox {
+    display: flex;
+
+    height: 455px;
+
+    text-align: center;
+}
+
+.thirdbox .letter {
+    flex-grow: 1;
+
+    padding-top: 35px;
+    padding-bottom: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thirdbox .letter + .letter {
+    border-left: 2px solid black;
+}
+
+.fourthbox {
+    height: 930px;
+    box-sizing: border-boxs;
+
+    display: flex;
+}
+
+.fourthbox .fourth-container {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    
+    flex-grow: 1;
+}
+
+.fourthbox .fourth-container + .fourth-container {
+    border-left: 2px solid black;
+}
+
+.fourthbox .fourth-container .fourthbox-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex-grow: 1;
+    
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+
+.fourthbox .fourth-container .fourthbox-block + .fourthbox-block {
+    border-top: 2px solid black;
+}
+
+
+.fourthbox .fourth-container .ligatures {
+    height: 290px;
+}
+
+.fourthbox .fourth-container .symbols {
+    height: 640px;
+}
+
+.font-examples {
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    padding: 50px;
+}
+
+.font-examples .line {
+    display: flex;
+    flex-direction: row;
+}
+
+.font-examples .fish-container {
+    background-image: url(../svg/fish2.svg);
+    background-size: 870px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-bottom: 65px;
+    padding-right: 85px;
+}
+
+.font-examples .fish-container .firstline, .font-examples .fish-container .thirdline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-examples .fish-container .secondline {
+    display: flex;
+    justify-content: center;
+}
+
+.diacritics {
+    height: 310px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fifthbox {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.fifthbox .content-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.sixthbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-align: left;
+    height: 250px;
+    width: 1358px; 
+}
+
+.firstcolumn {
+    display: flex;
+    flex-direction: column;
+
+    height: 250px;
+    width: 940px;
+    border-right: 2px solid black;
+    
+}
+
+.languages {
+    font-size: 89px;
+    font-family: 'Eb Garamond Bold';
+    color: black;
+    text-transform: uppercase;
+
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.languagesexamples {
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: 23px;
+
+}
+.secondcolumn {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 36px;
+    padding-top: 33px;
+}
+.alphabetsexamples {
+    font-size: 30px;
+    padding-top: 60px;
+}
+.seventhbox {
+    background-image: url(../svg/fish3.svg);
+    background-position: top 80px left 66px;
+    background-repeat: no-repeat;
+
+    height: 689px;
+}
+.numbersexamples {
+    padding-top: 50px;
+    padding-left: 47px;
+}
+.numberstext {
+   padding-left: 35px;
+}
+.numbersheading {
+    font-size: 89px;
+    font-family: 'Eb Garamond Bold';
+    color: black;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 23px;
+    padding-top: 17px;
+}
+footer {
+    display: flex;
+    height: 64px;
+    font-size: 30px;
+}
+.me {
+    padding-left: 40px;
+    padding-top: 15px;
+    width: 505px;
+}
+.group {
+    padding-left: 40px;
+    padding-top: 15px;
+    border-left: 2px solid black;
+    width: 205px;
+}
+.myfont{
+    padding-left: 40px;
+    padding-top: 15px;
+    border-left: 2px solid black;
+    width: 504px;
+}
+.year{
+    padding-left: 40px;
+    padding-top: 15px;
+    border-left: 2px solid black;
+    width: 152px
+}
